@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+  }
+  
+  .navbar-left h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Bebas Regular', sans-serif;
+  }
+  
+  .navbar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Equal spacing */
+  }
+  
+  .navbar-right ul li {
+    display: inline;
+  }
+  
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin Bold', sans-serif;
+    font-size: 18px;
+  }
+  
